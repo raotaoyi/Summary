@@ -15,11 +15,13 @@ java后端个人总结
 ### 4，中间件
 
 *	MQ消息
-	* [kafka]()
+	* [Kafka]()
 *	分布式缓存
-	* [redis]()
+	* [Redis]()
 *	本地缓存
-	* [ehcache]()
+	* [Ehcache]()
+*	定时器
+	* [Quartz]()
 
         
 
