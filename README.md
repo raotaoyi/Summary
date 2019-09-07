@@ -16,8 +16,8 @@ java后端个人总结
 * 	[SQL调优](data-base/sql-optimize.md)
 ### 4，第三方插件
  * [fastjson](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/fastjson.md)
+ * [pageHelper](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/pagehelper.md)
  * mybatis
-   * [pageHelper](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/pagehelper.md)
    * [mybatis_sql](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/mybatis_sql.md)
 
 ### 5，中间件
