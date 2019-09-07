@@ -10,12 +10,16 @@ java后端个人总结
 * 	[全局表 ID生成器](data-base/id-generate.md)
 * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
 * 	[SQL调优](data-base/sql-optimize.md)
-* 	[其它](data-base/other.md)
 ### 3，第三方插件
- * [fastjson](https://github.com/raotaoyi/Summary/blob/master/%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/fastjson)</br>
+ * [fastjson](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/fastjson)</br>
 ### 4，中间件
 
 *	MQ消息
 	* [kafka]()
+*	分布式缓存
+	* [redis]()
+*	本地缓存
+	* [ehcache]()
+
         
 
