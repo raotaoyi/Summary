@@ -1,3 +1,23 @@
+1,spring-boot-starter,Core starter,包括 自动配置支持、 logging and YAML,包含开启的一些注解
+```
+<dependency>
+       <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter</artifactId>
+ </dependency>
+``` 
+
+2，spring-boot-starter-test，测试 Spring Boot applications包含JUnit、 Hamcrest、Mockito
+
+```
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+ </dependency>
+``` 
+
+
+
 1.SpringBoot应用将自动使用logback作为应用日志框架，
 
 ```
@@ -39,6 +59,15 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
 </dependency>
+```
+
+5，spring-boot-starter-aop，通过Spring AOP、AspectJ面向切面编程
+```
+ <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-aop</artifactId>
+ </dependency>
+
 ```
 
 
