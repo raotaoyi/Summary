@@ -51,7 +51,7 @@
 ```
 
 
-4.负责web应用安全，配合spring-boot-starter-web使用
+4.负责web应用安全，配合spring-boot-starter-web使用，其中包含了spring-boot-starter-tomcat
 
 
 ```
