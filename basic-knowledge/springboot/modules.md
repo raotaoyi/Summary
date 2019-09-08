@@ -27,7 +27,7 @@
 </dependency>
 ```
 
-2.得到一个直接可执行的web应用，包含RESTful风格框架SpringMVC和Tomcat,当前项目下直接运行mvn spring-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。
+2.得到一个直接可执行的web应用，包含RESTful风格框架SpringMVC和Tomcat,当前项目下直接运行mvn spring-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。其中包含了spring-boot-starter-tomcat，spring-web,spring-webmvc
 
 默认访问地址：http://localhost:8080
 
@@ -51,7 +51,7 @@
 ```
 
 
-4.负责web应用安全，配合spring-boot-starter-web使用，其中包含了spring-boot-starter-tomcat
+4.负责web应用安全，配合spring-boot-starter-web使用，
 
 
 ```
