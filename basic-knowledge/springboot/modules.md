@@ -7,7 +7,7 @@
 </dependency>
 ```
 
-2.得到一个直接可执行的web应用，当前项目下直接运行mvn spring-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。
+2.得到一个直接可执行的web应用，包含RESTful风格框架SpringMVC和Tomcat,当前项目下直接运行mvn spring-boot:run 就可以直接启动一个嵌入tomcat服务请求的web应用。
 
 默认访问地址：http://localhost:8080
 
