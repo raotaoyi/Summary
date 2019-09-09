@@ -39,7 +39,7 @@ java后端个人总结
 ### 6，运维
 * [项目部署的常用linux命令](/ops/linux.md)
 * [快速排出线上问题]()
-* [docker]()
+* [docker](/ops/docker.md)
 
 ###  7，工具
 
