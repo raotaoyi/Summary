@@ -28,7 +28,7 @@ java后端个人总结
 ### 5，中间件
 
 *	MQ消息
-	* [Kafka]()
+	* [Kafka](/middle-software/kafka.md)
 *	分布式缓存
 	* [Redis]()
 *	本地缓存
