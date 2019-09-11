@@ -12,7 +12,7 @@
     * [本地缓存]()  
     * [多数据源]()
     * [aop]()
-    * [kafka](/springboot/kafka.md) 
+    * [kafka](basic-knowledge/springboot/kafka.md) 
   * 数据层
     * [事务]()
     * [jpa]()
