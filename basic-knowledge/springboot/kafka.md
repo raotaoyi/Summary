@@ -1,3 +1,3 @@
 # springboot集成kafka消息中间件
- * kafka常用的[命令]()
+ * kafka常用的[命令](/kafkaCommand.md)
  * springboot集成kafka是报connect fail，[排查原因](https://blog.csdn.net/fanrenxiang/article/details/82870708)
