@@ -13,6 +13,9 @@
 * count（colum）统计,改函数在统计时具有去重的效果，要注意
 * date_sub（）日期减，date_add（）日期加，datediff(a,b)两者日期相差了多少天，date_sub（currentdate()，interval 1 day ）前一天的日期
 * currentDate()当前时间
+* mybatis中大于和小于号的处理方式有两种
+   * &gt; &lt;
+   * <![ CDATA[sql语句]]]
 ```
         <choose>
             <when test="param.level==''"></when>
