@@ -28,4 +28,13 @@
         open="(" separator="," close=")">
             #{item}
         </foreach>
- ```    
+ ``` 
+ ```
+        select * from
+        (
+        <foreach collection="times" item="item" 
+                 separator="union all" >
+            select * from t_mc_job_info where date=#{item}
+        </foreach>
+        )
+```
