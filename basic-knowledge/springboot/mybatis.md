@@ -21,4 +21,11 @@
 ```
 ```
      <if test="param.product!=null and param.product!=''"></if>
-```
+``` 
+```    
+        select * from t_mc_job_info where register_key in
+        <foreach collection="registerKeys" item="item" index="index" 
+        open="(" separator="," close=")">
+            #{item}
+        </foreach>
+ ```    
