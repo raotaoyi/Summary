@@ -25,6 +25,7 @@ java后端个人总结
  * [pageHelper](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/pagehelper.md)
 
 ### 5，中间件
+
 *       MQ消息
         * [rabbitmq](/middle-software/rabbitmq.md)
 	* [Kafka](/middle-software/kafka.md)
