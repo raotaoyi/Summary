@@ -22,5 +22,10 @@
    
    * ./kafka-consumer-groups.sh --zookeeper localhost:2181 --list 查看旧版本的消费者组
    * ./kafka-consumer-groups.sh --new-consumer --bootstrap-server localhost:9092 --list 查看新的消费者组
+   * ./kafka-console-consumer.sh --zookeeper localhost：2181 --topic 【主题】 --from-beginning 从头开始查看消费信息
+   * ./kafka-console-consumer.sh --zookeeper localhost：2181 --topic 【主题】 查看当前的消费信息
+   * ./kafka-consumer-groups.sh --bootstrap-server localhost：9092 --describe --group 【消费组】 查看该消费者组还有多少信息未被消费，该消费者者组是新版本的
+   * ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --new-consumer --consumer-property group.id=【新消费者组】 --consumer-property client.id=【消费者】 --topic 【主题】创建消费者组和消费者，该消费者组也可以在程序中设置
+   
    
    
