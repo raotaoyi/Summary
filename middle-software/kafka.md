@@ -14,5 +14,13 @@
 * kafka的常用命令
    * nohup ./bin/kafka-server-start.sh config/server.properties & 后台不中断启动kafka服务
    * ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 【num】 --partitions 【num】 
-   --topic 【主题】
+   --topic 【主题】 创建主题
+   * ./kafka-console-producer.sh --broker-list localhost:2181 --topic 【主题】 向kafka发送信息
+   * ./kafka-topics.sh --list --zookeeper localhost：2181 查看所有的kafka的topic
+   * ./kafka-topics.sh --describe --zookeeper localhost：2181 --topic 【主题】查看指定主题的具体信息
+   * ./kafka-topics.sh --zookeeper localhost：2181 --alter --topic 【主题】 --partitions 【num】更改主题的分区数
+   
+   * ./kafka-consumer-groups.sh --zookeeper localhost:2181 --list 查看旧版本的消费者组
+   * ./kafka-consumer-groups.sh --new-consumer --bootstrap-server localhost:9092 --list 查看新的消费者组
+   
    
