@@ -9,4 +9,7 @@
    * 1,consumer group下可以有一个或者多个consumer instance.consumer instance可以是一个线程，也可以是一个进程
    * 2,group.id=group是一个字符串，是唯一标识consumer group的
    * 3,consumer group下订阅的topic下的每一个分区只能分配给某个group下的一个consummer(多个分区可以分配同一个用户，但一个分区不能分配给同一个group下的多个用户，可以分配不同消费组的不同用户)
+   * 当分区的信息被消费完时，current-offset=log_end_offset，LAG=0
+   
+* kafka的常用命令
    
