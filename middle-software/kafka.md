@@ -12,4 +12,7 @@
    * 当分区的信息被消费完时，current-offset=log_end_offset，LAG=0
    
 * kafka的常用命令
+   * nohup ./bin/kafka-server-start.sh config/server.properties & 后台不中断启动kafka服务
+   * ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 【num】 --partitions 【num】 
+   --topic 【主题】
    
