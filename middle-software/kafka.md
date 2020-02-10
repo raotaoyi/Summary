@@ -28,6 +28,10 @@
    * ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --new-consumer --consumer-property group.id=【新消费者组】 --consumer-property client.id=【消费者】 --topic 【主题】创建消费者组和消费者，该消费者组也可以在程序中设置
  
 * kafka的常用命令(windows)
+  * .\bin\windows\kafka-server-start.bat .\config\server.properties 运行kafka服务
+  * .\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1     --topic test01创建主题
+  * 向kafka发送信息
+  * 查看所有的kafka的topic
    
    
    
