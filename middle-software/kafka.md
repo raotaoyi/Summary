@@ -11,7 +11,7 @@
    * 3,consumer group下订阅的topic下的每一个分区只能分配给某个group下的一个consummer(多个分区可以分配同一个用户，但一个分区不能分配给同一个group下的多个用户，可以分配不同消费组的不同用户)
    * 当分区的信息被消费完时，current-offset=log_end_offset，LAG=0
    
-* kafka的常用命令
+* kafka的常用命令(linux)
    * nohup ./bin/kafka-server-start.sh config/server.properties & 后台不中断启动kafka服务
    * ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 【num】 --partitions 【num】 
    --topic 【主题】 创建主题
@@ -26,6 +26,8 @@
    * ./kafka-console-consumer.sh --zookeeper localhost：2181 --topic 【主题】 查看当前的消费信息
    * ./kafka-consumer-groups.sh --bootstrap-server localhost：9092 --describe --group 【消费组】 查看该消费者组还有多少信息未被消费，该消费者者组是新版本的
    * ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --new-consumer --consumer-property group.id=【新消费者组】 --consumer-property client.id=【消费者】 --topic 【主题】创建消费者组和消费者，该消费者组也可以在程序中设置
+ 
+* kafka的常用命令(windows)
    
    
    
