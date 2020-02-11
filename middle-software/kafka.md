@@ -33,7 +33,7 @@
   * .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic 【主题】 向kafka发送信息
   * .\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181 查看所有的kafka的topic
   * .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 【主题】 消费消息(实时的)
-  * .\bin\windows\kafka-console-consumer.bat --zookeeper localhost:2181 --topic 【主题】 --from-beginning消费消息(历史的)
+  * .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic 【主题】 --from-beginning消费消息(历史的)
   
   
    
