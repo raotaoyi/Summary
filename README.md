@@ -28,16 +28,15 @@ java后端个人总结
 
 ### 5，中间件
 
-*    MQ消息
-        * [rabbitmq](/middle-software/rabbitmq.md)
-	* [Kafka](/middle-software/kafka.md)
-	* [electricsearch](/middle-software/electricsearch.md)
-*	分布式缓存
-	* [Redis]()
-*	本地缓存
-	* [Ehcache]()
-*	定时器
-	* [Quartz]()
+* MQ消息
+    * [rabbitmq](/middle-software/rabbitmq.md)
+    * [Kafka](/middle-software/kafka.md)
+* 分布式缓存
+    * [Redis]()
+* 本地缓存
+    * [Ehcache]()
+* 定时器
+    * [Quartz]()
 
 ### 6，运维
 * [项目部署的常用linux命令](/ops/linux.md)
