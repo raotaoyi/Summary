@@ -19,4 +19,7 @@
 * 导出tomcat错误的日志信息到指定的目录：grep error catalina.out > demo.txt
 
 * 查找目录的位置：find / -name "*tomcat*"
+
+* 查看日志的内容: grep 【需要查询的内容】 【日志文件】
+* 查看日志的上下文: vi 【日志】 + /
     
