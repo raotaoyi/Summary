@@ -43,3 +43,7 @@
     @Value("${DB_DRIVER_CLASS}")
     private String driverClass;
 ```
+
+* @CrossOrigin解决了Spring的跨域的问题
+
+
