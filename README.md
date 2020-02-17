@@ -22,6 +22,7 @@ java后端个人总结
     * 	[读写分离](http://blog.csdn.net/itomge/article/details/6909240)
     * 	[SQL调优](data-base/sql-optimize.md)
 * 非关系型数据库
+* elasticsearch
 ### 4，第三方插件
  * [fastjson](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/fastjson.md)
  * [pageHelper](%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/pagehelper.md)
