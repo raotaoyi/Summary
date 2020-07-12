@@ -15,6 +15,7 @@ java后端个人总结
 
 ### 3，数据库
 * 关系型数据库
+    *   [原理](data-base/principle.md)
     *	[连接池](data-base/database-connection-pool.md)
     * 	[事务](data-base/transaction.md)
     * 	[分库分表](data-base/分库分表.md)
