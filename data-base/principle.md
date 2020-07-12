@@ -2,8 +2,9 @@
  * 二叉树:
  * 红黑树:
  * hash(hash值,没有办法进行范围查询):
- * b+tree():
+ * b+tree(b-btree的变种):
 # innodb和myisam的区别
-  * innodb:
-  * myisam:
-
+  * innodb(聚集):叶子节点存了所有的数据,在同一个文件中
+  * myisam(非聚集):叶子节点保存指针和数据保存在不一样的文件
+# 联合索引
+  * 
