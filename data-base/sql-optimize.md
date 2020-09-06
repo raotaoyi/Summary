@@ -5,6 +5,15 @@
 * sql中的条件运用到函数，会使索引失去效果，可以将该函数放在业务层来进行处理
 * 把固定的sql可以创建临时表
 * [ 临时表的造成性能的降低](https://www.cnblogs.com/cchust/p/10891520.html)，产生临时表的情况union，group by，distinct
+* mysql的not in数据太慢可以使用(io次数太频繁)，可以使用left join进行替代。in同理
+````````````````````
+-- 查看sql的io次数
+flush status;
+select * from table
+show status like '%hand%'
+
+````````````````````
+
 
 
 
