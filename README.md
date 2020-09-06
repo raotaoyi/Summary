@@ -12,6 +12,7 @@ java后端个人总结
 * [http和https](web/http_https.md)
 * 服务器
     * [Tomcat]()
+	* [Nginx](web/nginx.md)
 
 ### 3，数据库
 * 关系型数据库
