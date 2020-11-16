@@ -16,10 +16,15 @@
 * 压缩： zip -r 【指定的压缩包】【指定的压缩文件/文件夹】
          * 压缩当前的目录下的所有文件到当前目录的zip压缩包中：zip -r 【指定压缩包】 ./*
 
-* 导出tomcat错误的日志信息到指定的目录：grep error catalina.out > demo.txt
+* 导出tomcat错误的日志信息到指定的目录：grep "*error*" catalina.out > demo.txt
 
 * 查找目录的位置：find / -name "*tomcat*"
 
 * 查看日志的内容: grep 【需要查询的内容】 【日志文件】
 * 查看日志的上下文: vi 【日志】 + /
-    
+* 查看系统的文件的使用情况 df -h
+* 查看当前目录下各个文件及目录的占用空间大小 du -sh *
+* 查看linux的接口是否同的linux中curl[url地址]
+
+* 将中文编译成ack码的命令native2ascii    
+
