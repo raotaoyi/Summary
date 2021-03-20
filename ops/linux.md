@@ -1,8 +1,9 @@
 * 添加权限：chmod -R 777 【文件名/文件夹名】
 * 查看tomcat的进程：ps -ef | grep tomcat
-* 强制关闭进程：kill -9 pid
+* 强制关闭进程：kill -9 【pid】
 * 查看文件的结尾： tail -f 【文件名】
 * 查看文件的后400行：tail -400 【文件名】
+* 查看文件的最新后400行：tail -400f 【文件名】
 * 查看文件的内容：vim 【指定文件】 
     *  编辑：i
     *  退出编辑：ctrl+c 
@@ -16,15 +17,15 @@
 * 压缩： zip -r 【指定的压缩包】【指定的压缩文件/文件夹】
          * 压缩当前的目录下的所有文件到当前目录的zip压缩包中：zip -r 【指定压缩包】 ./*
 
-* 导出tomcat错误的日志信息到指定的目录：grep "*error*" catalina.out > demo.txt
-
+* 导出tomcat错误的日志信息到指定的目录：grep "*error*" 【目标文件】 > demo.txt
+* 搜索信息在文件的位置:vim 【目标文件】 输入 / 【搜索的内容】
 * 查找目录的位置：find / -name "*tomcat*"
-
 * 查看日志的内容: grep 【需要查询的内容】 【日志文件】
 * 查看日志的上下文: vi 【日志】 + /
 * 查看系统的文件的使用情况 df -h
-* 查看当前目录下各个文件及目录的占用空间大小 du -sh *
-* 查看linux的接口是否同的linux中curl[url地址]
-
+* 查看当前目录下各个文件及目录的占用空间大小: du -sh *
+* 查看linux的接口是否同的linux中:curl[url地址]
+* 查看linux的ip或者域名是否通:ping 【ip】或【域名】 
+* 查看linux的端口是否通:telnet 【ip】或【域名】 【端口号】 
 * 将中文编译成ack码的命令native2ascii    
 
